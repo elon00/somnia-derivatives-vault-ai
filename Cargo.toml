@@ -1,0 +1,9 @@
+[package]
+name = "somnia-derivatives-vault-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Structured yield and principal-protected options vault"
+license = "MIT"
+
+[dependencies]

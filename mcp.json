@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-derivatives-vault-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMVAULT"
+      },
+      "tools": [
+        {
+          "name": "verify_somvault_invariants",
+          "description": "Verifies deterministic invariants for Somnia Derivatives Vault AI on Somnia Network."
+        },
+        {
+          "name": "execute_somvault_action",
+          "description": "Executes authenticated DeFi state transition."
+        }
+      ]
+    }
+  }
+}
